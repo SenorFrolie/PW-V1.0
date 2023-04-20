@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import Sidebar from '../../components/sidebar';
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,20 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
-        <aside className='md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif'>
-              <div className='lg:sticky lg:top-20'>
-                  <nav
-                  className="flex flex-row md:flex-col items-start relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-                  id="nav"
-                  >
-                      <h1>sidebar</h1>
-                      <ul>
-                          <li><Link href='/about'>About</Link></li>
-                          <li><Link href='/about'>Projects</Link></li>
-                      </ul>
-                  </nav>
-              </div>
-          </aside>
+        <Sidebar />
           <main>
             {children}
           </main>
