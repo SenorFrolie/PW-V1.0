@@ -15,8 +15,8 @@ export default function Navbar(){
             <ul>
                 <li><Link href='/'>Home</Link></li>
                 <li><Link href='/about'>About</Link></li>
-                <li><Link href='/Projects'>Projects</Link></li>
-                <li><Link href='/Blog'>Blog</Link></li>
+                <li><Link href='/projects'>Projects</Link></li>
+                <li><Link href='/blog'>Blog</Link></li>
             </ul>
             </div>
           </div>
@@ -24,5 +24,4 @@ export default function Navbar(){
     </div>
     </aside>
     )
-    
-    }
+}

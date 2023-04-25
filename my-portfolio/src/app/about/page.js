@@ -18,12 +18,12 @@ export default function AboutPage(){
                 <p className="mb-8">
                     I am a recent college graduate from Texas State Univerity with a Bachalors 
                     in Computer Science. I love all things tech and will go out of my way to learn how a new 
-                    piece of technology works and It improve our daily lives. I believe Software has the potential 
+                    piece of technology. I believe Software has the potential 
                     to improve out lives and makes difficult task reachable 
                 </p>
                 <hr className="mb-8" />
                 <p className="mb-8">
-                    On my days off, I like to spend time with friends and play the occasional game of Dota 2, Valorant or 
+                    On my days off, I like to spend time with friends and play the occasional game of Apex, Valorant or 
                     whatever crappy game my friends decide to make me download for the day. Another thing I like to do is to read up on the newest trend of technology 
                     that is supposedly taking over the tech world.<br></br>
                 </p>
@@ -31,6 +31,12 @@ export default function AboutPage(){
                     My hope for this website is to document my career as Software Developer, from the good to the very ugly and hopefully when i decide to retire, 
                     hopefully that plays out as it does in my head if so, would be cool to see a timeline of my hardwork and success be layout on a website I design and maintain 
                     on my own for decades to come. 
+                </p>
+                <p className="mb-8">
+                    This website will be available for others to reference and take pieces from to be used for their own website. I used
+                   <a href='https://nextjs.org/docs' className='font-bold text-white hover:text-gray-600'> Next.js</a> as my framework and
+                    and 
+                    <a href='https://tailwindcss.com/' className='font-bold text-white hover:text-sky-500'> tailwindcss</a>. as my css library
                 </p>
             </div>
                 <div className="flex flex-col gap-2 md:flex-row md:gap-2">
