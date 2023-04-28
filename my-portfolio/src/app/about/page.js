@@ -34,9 +34,9 @@ export default function AboutPage(){
                 </p>
                 <p className="mb-8">
                     This website will be available for others to reference and take pieces from to be used for their own website. I used
-                   <a href='https://nextjs.org/docs' className='font-bold text-white hover:text-gray-600'> Next.js</a> as my framework and
+                   <a href='https://nextjs.org/docs' className='font-bold text-white hover:text-gray-600'> Next.js</a> and
                     and 
-                    <a href='https://tailwindcss.com/' className='font-bold text-white hover:text-sky-500'> tailwindcss</a>. as my css library
+                    <a href='https://tailwindcss.com/' className='font-bold text-white hover:text-sky-500'> tailwindcss</a> as my css library
                 </p>
             </div>
                 <div className="flex flex-col gap-2 md:flex-row md:gap-2">
