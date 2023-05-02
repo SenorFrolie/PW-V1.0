@@ -1,9 +1,22 @@
 
+import { getSortedPostsData } from '../../../lib/posts';
 
-export default function Blog(){
+
+
+export async function getStaticProps() {
+    const allPostsData = getSortedPostsData();
+    return {
+      props: {
+        allPostsData,
+      },
+    };
+  }
+  
+export default function Blog({ allPostsData }){
     return (
         <section>
             <h1>Blog title</h1>
+            
         </section>
     )
 }
