@@ -2,9 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 import {name,about,avatar,bio} from '../../lib/info';
-import { getSortedPostsData } from '../../lib/posts';
-
-
+import { allPosts } from 'contentlayer/generated';
 
 
 export default async function HomePage() {

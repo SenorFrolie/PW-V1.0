@@ -18,7 +18,7 @@ export default function Navbar(){
                   <li><Link href='/' className='px-1 py-1 text-white-700 rounded-lg hover:bg-slate-100 hover:text-slate-900'>Home</Link></li>
                   <li><Link href='/about' className='px-1 py-1 text-white-700 rounded-lg hover:bg-slate-100 hover:text-slate-900'>About</Link></li>
                   <li><Link href='/projects' className='px-1 py-1 text-white-700 rounded-lg hover:bg-slate-100 hover:text-slate-900'>Projects</Link></li>
-                  <li><Link href='/blog' className='px-1 py-1 text-white-700 rounded-lg hover:bg-slate-100 hover:text-slate-900'>Blog</Link></li>
+                  <li><Link href='/posts' className='px-1 py-1 text-white-700 rounded-lg hover:bg-slate-100 hover:text-slate-900'>Blog</Link></li>
               </ul>
             </div>
           </div>
