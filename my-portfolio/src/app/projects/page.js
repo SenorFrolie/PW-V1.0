@@ -4,7 +4,7 @@ export default function Projects(){
     return(
         <section>
              <h1 className="font-bold text-3xl font-serif">Projects</h1>
-             <hr class="mb-2"></hr>
+             <hr class="mb-6 mt-2"></hr>
         <Link href='https://github.com/SenorFrolie/Kidzblock'>
             <div class="max-w-md mx-auto bg-white hover:bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
                 <div class="md:flex">

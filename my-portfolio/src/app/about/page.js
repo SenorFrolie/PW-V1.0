@@ -14,7 +14,7 @@ export default function AboutPage(){
             <p>
                 How is it going! My name is Robert.
             </p>
-            <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
+            <div className="my-5 w-[750px] text-[20.5px] prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
                 <p className="mb-8">
                     I am a recent college graduate from Texas State Univerity with a Bachalors 
                     in Computer Science. I love all things tech and will go out of my way to learn how a new 

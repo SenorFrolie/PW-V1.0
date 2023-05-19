@@ -1,0 +1,12 @@
+---
+title: My First Post
+date: 2023-05-19
+---
+
+Hey, How's it going! My Name is Robert. This is will be the start to my journey to becoming a Software Developer!
+Hopefully I can keep this up with keeping you updated on all things I am learning/ working towards. But to always to be real place where I can share my thoughts on the current job market. And It is not looking good If I am being honest with you.  
+
+First I should say that this website will probably change a lot throughout its Life. I have a couple Ideas in terms 
+of keeping track of all these post, my projects I want to show case. And of course the look and feel of the website itself. 
+
+-R
