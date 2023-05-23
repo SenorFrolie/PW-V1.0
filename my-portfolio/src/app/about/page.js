@@ -1,8 +1,6 @@
 import {
     GitHubIcon,
-    YoutubeIcon,
     ArrowIcon,
-    TwitterIcon,
     LinkedinIcon
   } from 'components/icons';
   
