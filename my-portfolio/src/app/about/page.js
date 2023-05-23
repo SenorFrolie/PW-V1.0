@@ -2,7 +2,7 @@ import {
     GitHubIcon,
     ArrowIcon,
     LinkedinIcon
-  } from 'components/icons';
+  } from '../../../components/Icons';
   
 
 export default function AboutPage(){
