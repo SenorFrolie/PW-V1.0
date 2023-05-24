@@ -9,3 +9,7 @@ const nextConfig = {
 }
 
 module.exports = withContentlayer(nextConfig)
+
+module.export = {
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
+}
