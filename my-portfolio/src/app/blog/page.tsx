@@ -24,7 +24,7 @@ export default function Blog(){
             className="flex flex-col space-y-1 mb-4"
             href={`/blog/${post.slug}`}
           >
-            <div className="w-full flex flex-col">
+            <div className="flex justify-between flex-col text-[18px]">
               <p>{post.title}</p>
             </div>
           </Link>

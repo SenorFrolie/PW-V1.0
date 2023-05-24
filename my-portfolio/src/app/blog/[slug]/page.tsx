@@ -14,11 +14,11 @@ export default async function Blog({ params }) {
       <h1 className="font-bold text-3xl font-serif max-w-[650px]">
         <Balancer>{post.title}</Balancer>
       </h1>
-      <div className="grid grid-cols-[auto_1fr_auto] items-center mt-4 mb-8 font-mono text-sm max-w-[650px]">
-        <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 tracking-tighter">
+      <div className="grid items-center mt-4 mb-8 font-mono text-sm max-w-[650px]">
+        <div className="bg-neutral-100 dark:bg-neutral-700 rounded-md px-2 py-1 tracking-tighter max-w-[100px]">
           {post.publishedAt}
         </div>
-        <div className="h-[0.2em] bg-neutral-50 dark:bg-neutral-800 mx-2" />
+        <div className="h-[0.2em] bg-neutral-50 dark:bg-neutral-700 mx-2 mt-4 mb-2" />
           <Mdx code={post.body.code} tweets={undefined} />
       </div>
     </section>
