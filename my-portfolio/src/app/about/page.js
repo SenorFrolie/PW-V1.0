@@ -1,7 +1,8 @@
 import {
     GitHubIcon,
     ArrowIcon,
-    LinkedinIcon
+    LinkedinIcon,
+    ResumeIcon
   } from '../../../components/Icons';
   
 
@@ -64,6 +65,21 @@ export default function AboutPage(){
                 </div>
                 <ArrowIcon />
             </a>
+
+            <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="/Robert_Bonham_resume_copy.pdf"
+                className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+                
+            >
+                <div className="flex items-center fill-white">
+                <ResumeIcon />
+                <div className="ml-3">Resume</div>
+                </div>
+                <ArrowIcon />
+            </a>
+
             </div>
         </section>
     )
