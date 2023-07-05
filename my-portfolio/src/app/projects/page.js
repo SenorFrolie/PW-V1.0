@@ -5,6 +5,21 @@ export default function Projects(){
         <section>
              <h1 className="font-bold text-3xl font-serif">Projects</h1>
              <hr class="mb-6 mt-2"></hr>
+
+             <Link href='https://github.com/SenorFrolie/PW-V1.0'>
+            <div class="max-w-md mx-auto bg-white hover:bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
+                <div class="md:flex">
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+                            Portfolio Website
+                        </div>
+                        <p class="mt-2 text-slate-500">
+                            A website to host all my achievements and past, current, and future personal projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </Link>
         <Link href='https://github.com/SenorFrolie/Kidzblock'>
             <div class="max-w-md mx-auto bg-white hover:bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
                 <div class="md:flex">
