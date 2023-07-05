@@ -1,6 +1,8 @@
  import './globals.css';
 import Link from 'next/link';
 import Sidebar from '../../components/sidebar';
+import { Analytics } from '@vercel/analytics/react';
+
 
 export const metadata = {
   title: 'Robert Bonham',
@@ -14,6 +16,7 @@ export default function RootLayout({ children }) {
         <Sidebar />
           <main>
             {children}
+            <Analytics />
           </main>
       </body>
     </html>
