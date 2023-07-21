@@ -15,8 +15,8 @@ export default function AboutPage(){
             </p>
             <div className="my-5 w-[750px] text-[20.5px] prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
                 <p className="mb-8">
-                I recently graduated with a B.S. in Computer Science from Texas State. I'm excited about technology and its potential to improve lives. 
-                I'm particularly into web and mobile development. I look forward to starting my career and contributing to new technologies.
+                I recently graduated with a B.S. in Computer Science from Texas State. I am excited about technology and its potential to improve lives. 
+                I am particularly into web and mobile development. I look forward to starting my career and contributing to new technologies.
                 </p>
                 <hr className="mb-8" />
                 <p className="mb-8">
