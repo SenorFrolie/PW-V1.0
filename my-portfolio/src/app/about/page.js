@@ -10,30 +10,28 @@ export default function AboutPage(){
     return (
         <section>
             <h1 className="font-bold text-3xl font-serif">About Me</h1>
-            <p>
+            <p className='text-[20.5px]'>
                 How is it going! My name is Robert.
             </p>
             <div className="my-5 w-[750px] text-[20.5px] prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
                 <p className="mb-8">
-                    I am a recent college graduate from Texas State Univerity with a Bachalors 
-                    in Computer Science. I love all things tech and will go out of my way to learn how a new 
-                    piece of technology. I believe Software has the potential 
-                    to improve out lives and makes difficult task reachable 
+                I recently graduated with a B.S. in Computer Science from Texas State. I'm excited about technology and its potential to improve lives. 
+                I'm particularly into web and mobile development. I look forward to starting my career and contributing to new technologies.
                 </p>
                 <hr className="mb-8" />
                 <p className="mb-8">
-                    On my days off, I like to spend time with friends and play the occasional game of Apex, Valorant or 
-                    whatever crappy game my friends decide to make me download for the day. Another thing I like to do is to read up on the newest trend of technology 
-                    that is supposedly taking over the tech world.<br></br>
+                In my free time, I like to socialize with my friends and play video games. 
+                I am particularly fond of Apex Legends, Valorant, and other similar games. 
+                I also enjoy reading about the latest technological trends and how they are shaping the world..<br></br>
                 </p>
                 <p className="mb-8">
-                    My hope for this website is to document my career as Software Developer, from the good to the very ugly and hopefully when i decide to retire, 
-                    hopefully that plays out as it does in my head if so, would be cool to see a timeline of my hardwork and success be layout on a website I design and maintain 
-                    on my own for decades to come. 
+                I hope to use this website to document my career as a software developer, from the good times to the bad. 
+                I hope that when I retire, I can look back on this website and see a timeline of my hard work and success. 
+                It would be amazing to see my website continue to be updated for decades to come, as a testament to my career.
                 </p>
                 <p className="mb-8">
                     This website will be available for others to reference and take pieces from to be used for their own website. I used
-                   <a href='https://nextjs.org/docs' className='font-bold text-white hover:text-gray-600'> Next.js</a>
+                   <a href='https://nextjs.org/docs' className='font-bold text-white hover:text-gray-600'> Next.js </a>
                     and 
                     <a href='https://tailwindcss.com/' className='font-bold text-white hover:text-sky-500'> tailwindcss</a> as my css library
                 </p>

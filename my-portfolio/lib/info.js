@@ -6,21 +6,18 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I am Robert Bonham. 
-      I am a recent college graduate from Texas State University with a Bachalors degree in <b>Computer Science </b> 
-      with a minor in Mathematics.
+    Hi, I'm Robert Bonham, a recent graduate of Texas State University 
+    with a bachelor's degree in <b>Computer Science</b> and a minor in Mathematics. 
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-        Aspiring Software Engineer.<br></br> 
-        Born and raised in an Army Family with strong values, which enables me to build connections with people of diverse backgrounds. 
-        I started programming in Python, but also programmed in C++, Java. And i recently started learning Rust on the side. I am always willing to learn 
-        new things I'm interested in.<br></br>
-
-        
+    I am an aspiring software engineer who was born and raised in a military family with strong values.
+    These values have helped me to build relationships with people from diverse backgrounds. 
+    I started programming in Python, but I have also programmed in C++ and Java. 
+    I am always eager to learn new things that interest me
     </>
   );
 };
