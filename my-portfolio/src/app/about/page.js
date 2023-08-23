@@ -67,9 +67,8 @@ export default function AboutPage(){
             <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="/Robert_Bonham_resume_copy.pdf"
+                href="/Robert_Bonham_Resume_2023.pdf"
                 className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-                
             >
                 <div className="flex items-center fill-white">
                 <ResumeIcon />
