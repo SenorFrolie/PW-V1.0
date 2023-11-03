@@ -71,7 +71,7 @@ export default function Projects(){
                             Small Machine Learning Projects
                         </div>
                         <p class="mt-2 text-slate-500">
-                            A Repo to highlight small machine learning projects I've been playing around with
+                            A Repo to highlight small machine learning projects i have been playing around with
                         </p>
                     </div>
                 </div>
