@@ -62,6 +62,21 @@ export default function Projects(){
                 </div>
             </div>
         </Link>
+
+        <Link href='https://github.com/SenorFrolie/Machine-Learning'>
+            <div class="max-w-md mx-auto bg-white hover:bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
+                <div class="md:flex">
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+                            Small Machine Learning Projects
+                        </div>
+                        <p class="mt-2 text-slate-500">
+                            A Repo to highlight small machine learning projects I've been playing around with
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </Link>
         
         </section>
     )
